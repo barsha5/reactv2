@@ -33,7 +33,7 @@ const CardComponent = ({ person }) => {
     <br />
     <strong>Favorite Color:</strong> {person.favoriteColor}
     </Card.Text>
-    <Button variant="primary" size="sm" style={{ position: "absolute", bottom: "5px", right: "5px" }} onClick={() => setLikeCount(likeCount + 1)}>Like ({likeCount})</Button>
+    <Button variant="success" size="sm" style={{ position: "absolute", bottom: "5px", right: "5px" }} onClick={() => setLikeCount(likeCount + 1)}>Like ({likeCount})</Button>
     </Card.Body>
     </Card>
 );
